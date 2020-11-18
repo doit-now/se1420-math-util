@@ -35,7 +35,7 @@ public class Main {
         //này của tao đưa tham số âm, tham số > 20
         System.out.println("expected: IllegalArgumentException: " + MathUtility.getFactorial(-5));
        
-        System.out.println("Chúc cuối tuần thứ 9 vui vẻ");
+        System.out.println("I want to see the RED or GREEN!!!");
     }
 
 }
