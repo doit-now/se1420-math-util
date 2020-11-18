@@ -45,9 +45,11 @@ public class MathUtilityTest {
         assertEquals(120, getFactorial(5));
         assertEquals(24, getFactorial(4));
         assertEquals(720, getFactorial(6));
-        assertEquals(0, getFactorial(0));
+        assertEquals(1, getFactorial(0));
         //vietsub: hãy tính giùm tui 5! coi nó có là 120 hem?
         //có thì báo xanh, ko thì báo đỏ
     }
-    
+    //tui sửa lại code expected = 1 để có màu xanh local
+    //và tui cũng mún thấy màu xanh trên GIT để tui đóng dấu
+    //chất lượng code của tui
 }
